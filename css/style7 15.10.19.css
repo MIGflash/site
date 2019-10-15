@@ -1,0 +1,63 @@
+﻿div {
+	border: 1px solid black;
+}
+.none {
+	display: none;
+}
+.hidden {
+	visibility: hidden;
+}
+/*Псевдоэлементы*/
+#parent :first-child { /*Первый дочерний элемент*/
+background: orange;
+ }
+
+#parent :last-child{
+	background: green;
+}
+#parent :nth-child(3) {
+	background: blue;
+}
+/*четные (even) и не четные (odd)*/
+#parent :nth-child(odd) {
+	border-bottom: 3px solid red;
+}
+#target {
+	width: 300px;
+	height: 100px;
+	background: red;
+opacity: 0.7;
+}
+#target:target {
+	opacity: 1;
+	background: green;
+}
+ul {
+	list-style-type: none;
+}
+li::before {
+	content: "\2740";
+	color: orangered;
+}
+.image::before {
+	content: "";
+	height: 30px;
+	width: 50px;
+	/*margin: 3px;*/
+	display: inline-block;
+	background-image: url("../site/pic/wood1.jpg");
+	background-size: cover;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+/*::after*/
+/*Форматирование кавычек*/
+p {
+	quotes: '<''>';
+}
+p::before {
+	content: open-quote;
+}
+p::after {
+	content: close-quote;
+}

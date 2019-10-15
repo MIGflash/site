@@ -1,0 +1,56 @@
+﻿header {
+	position: fixed; /*позициироание фиксация положения на сайте*/
+	/*координаты*/
+	top: 0;
+	left: 0;
+	right: 0;
+	/*bottom: ;*/
+	height: 60px;
+	background: orangered;
+	z-index: 1;
+	
+	
+}
+
+body {
+	height: 1200px;
+}
+.container {
+	width: 100px;
+	height: 100px;
+	background: green;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+h1 {
+	/*margin-top: 60px;*/
+	/*относительно позиционирование*/
+	position: relative;
+	top: 300px;
+	left: 100px;
+}
+.image {
+	position: relative;
+}
+.image h2 {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+.image p {
+	position: absolute;
+	top: 80px;
+	left: 30px;
+}
+img {
+	width: 100%;
+	height: auto; /*что бы картинка сжималась при сварачивания странички*/
+}
+body {
+margin: 0px;
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;  
+}

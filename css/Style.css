@@ -1,0 +1,64 @@
+﻿/*текст комментария*/
+/* css селекторы - указывают браузеру, какие элементы html нужно выбрать для применения стилей*/
+/*css селекторы {
+	свойство1: значение;
+	свойство2: значение;
+	свойство3: значение;
+}*/
+/*1. селекторы тега (имя тега)*/
+h3 {
+	color: green !important; /* цвет в приоритете*/
+}
+h3 {
+	color: yellow;
+}
+/*2. селектор идентификатора элемента (через атрибут id)*/
+#container {
+	height: 100px;
+	width: 300px;
+	background: yellow;
+}
+/*3. селектор класса(стили применяются ко всем элементам, для которых указан соответсвующий класс)*/
+.text-center{
+	text-align: center;
+}
+/*дочерний селектор*/
+/*css-селектор1> css-селектор2{}*/
+p>span{
+	font-weight: bold;
+}
+/*селектор потомков*/
+div span {
+	color: orange;
+}
+div .green a {
+	text-decoration: none;
+	color: red;
+}
+p.brown a{
+	text-decoration: line-through;
+	color: brown;
+}
+
+/*наследование в css*/
+.inherit-example {
+	color: red;
+	border: 1px solid black
+}
+.inherit-example p{
+	border: inherit;
+}
+#some_id {
+background:  yellow;
+}
+.some-class {
+	background: green;
+}
+h5 {
+	background: red;
+}
+/* id 0 1 0 0
+class 0 0 1 0
+tag 0 0 0 1
+встроенный
+стиль 1 0 0 0 */

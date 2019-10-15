@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background-image:url("../site/pic/wood.jpg");
+
+}
+.container {
+width: 1200px;
+margin: 0 auto;
+
+}
+header {
+		background-color: rgba(124, 252, 0);
+
+
+}
+ header .container {
+	display: flex;
+	align-items: left;
+	flex-wrap: wrap;
+	color: black;
+  }
+header h1 {
+	display: flex;
+	align-items: left;
+	color: black;
+	font-size: 50px;
+	}
+.buy {
+	display: flex;
+	align-items: left;
+	color: blue;
+	font-size: 40px;
+}
+
+header .login {
+margin-right: : auto;
+}
+
+header .Reg {
+margin-right: : auto;
+}
+header ul {
+	display: flex;
+	list-style-type: none;
+
+}
+header ul a {
+	padding: 8px 12px;
+	text-decoration: none;
+}
+header ul a: hover {
+background: green;
+}
+.text {
+	color: blue;
+	font-size: 40px;
+}
+h3 {
+	color: Green;
+	font-size: 50px;
+}
+.flex-container-1 div {
+	width: 500px;
+	height: 500px;
+	background: white;
+	border: 5px groove #C71585
+  }
+.flex-container-1 {
+	display: flex;
+	background-image:url("../site/pic/wood.jpg");
+	justify-content: center;
+	justify-content: space-between;
+
+}
+div span {
+	font-weight: bold;
+	font-size: 20px;
+}
+.avtor a {
+	text-decoration: none;
+	color: green; 
+	 }
+a.button  {
+	font-weight: 300px;
+  color: black;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 4px;
+  background: rgb(124, 252, 0);
+   } 
+
+
+
+
